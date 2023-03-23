@@ -1,6 +1,27 @@
+
+
+
 export default function Checkout(){
     return(
         <div>
+            <div>
+
+             
+       
+    
+    
+        </div>
+
+            
+
+          
+
+
+
+
+
+
+
             <p>Checkout</p>
             <p>1</p>
             <p>2</p>
