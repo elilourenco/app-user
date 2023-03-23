@@ -1,8 +1,6 @@
-import Header from "./Header/page"
-import styles from "../../public/assets/header.module.css"
 
 
-
+import Footer from "./componentes/Footer/page"
 
 export const metadata = {
   title: 'Create App User',
@@ -16,13 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Header/>
-      <body>
-        <div>
-      <h1 className={styles.header}>Steevanz</h1>
-        {children}
-
-        </div>
+     
+      <body>{children}
+      <div>
+      <Footer/>
+      </div>
       
       </body>
       
