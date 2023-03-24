@@ -1,13 +1,18 @@
 
+import * as React from "react"
+
+
+
+
+
 
 export default function Secpagecheckout(){
     return(
+
+
         <div>
-             <p>Checkout</p>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
+            <p>Checkout</p>
+           
 
             <p>Free delivery in Portugal for amounts over 50€.</p>
 
@@ -18,7 +23,6 @@ export default function Secpagecheckout(){
             <button>COMPANY</button>
             <p>Firstname(s)*</p>
             
-            <hr></hr>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 export default function Header(){
     return (
         <div>
-        <h1 >Steevanz</h1></div>
+        <h1 >App-sell</h1></div>
         
     )
 }
